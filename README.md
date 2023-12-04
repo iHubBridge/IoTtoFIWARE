@@ -16,7 +16,7 @@ A Smart Lamp can be switched on or off remotely. It can also report on its curre
 As you can see, the Bell is an example of a pure actuator, as it only reacts to the given commands. Meanwhile, the Motion Sensor is an example of a pure sensor, since it will only report on the state of the world as it sees it. The other two GPIO are able to both respond to the commands and report on state in a meaningful way.
 
 The state information held within each device, as it will eventually be seen within the Context Broker is defined in the diagram below:
-(https://github.com/iHubBridge/IoTtoFIWARE/blob/main/entities.png)
+![entities image](https://github.com/iHubBridge/IoTtoFIWARE/blob/main/entities.png)
 
 
 Starting by the FIWARE Zone Tutorial :"https://github.com/FIWAREZone/iot_curse"
