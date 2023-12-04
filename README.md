@@ -12,8 +12,8 @@ IoT devices can range from simple to complex. Here are some examples of IoT devi
 A Smart Door is an electronic door which can be sent commands to be locked or unlocked remotely. It can also report on its current state (OPEN, CLOSED or LOCKED),
 A Bell can be sent a command to activate and ring for a short period
 A Motion Sensor will activate and send a count when someone is nearby
-A Smart Lamp can be switched on or off remotely. It can also report on its current state (ON or OFF). When switched on, a Motion Sensor within the device checks to see if light is needed and will dim if no-one is nearby. Furthermore the device can be report on the current luminosity of the bulb.
-As you can see, the Bell is an example of a pure actuator, as it only reacts to the given commands. Meanwhile, the Motion Sensor is an example of a pure sensor, since it will only report on the state of the world as it sees it. The other two devices are able to both respond to the commands and report on state in a meaningful way.
+A Smart Lamp can be switched on or off remotely. It can also report on its current state (ON or OFF). When switched on, a Motion Sensor within the device checks to see if light is needed and will dim if no-one is nearby. Furthermore the device can be report on the output state and input of each GPIO (General Purpose Input Output).
+As you can see, the Bell is an example of a pure actuator, as it only reacts to the given commands. Meanwhile, the Motion Sensor is an example of a pure sensor, since it will only report on the state of the world as it sees it. The other two GPIO are able to both respond to the commands and report on state in a meaningful way.
 
 The state information held within each device, as it will eventually be seen within the Context Broker is defined in the diagram below:
 
