@@ -45,7 +45,7 @@ Setting up the southbound communication between an IoT Agent and IoT devices is 
 
 The payload for Ultralight commands has the following format:
 
-> <device name>@<command>|<param|<param>
+> <device_name>@<command>|<param|<param>
 
 Where <device_name> is the entity id as held in the context broker, <command> is one of the supported commands and any additional required values are passed in subsequent parameters for example:
 
