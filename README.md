@@ -1,5 +1,7 @@
 # IoTtoFIWARE
- FIWARE tutorial where IoT are ESP8266 
+Starting by the FIWARE Zone Tutorial :"https://github.com/FIWAREZone/iot_curse"
+
+This Tutorial intent to show the use of a real IoT device the ESP8266 node and a continuity of the FIWARE Tutorial "https://www.fiware.org/2015/06/10/iot-tutorial-orion-context-broker-arduino/"
 
 The Internet of Things (IoT) is a network of physical devices which are able to connect to a network and exchange data. Each "thing" or "smart device" is a gadget with embedded electronics and software which can act as a sensor or actuator. Sensors are able to report the state of the real-world around them. Actuators are responsible for altering the state of the system, by responding to a control signal.
 
@@ -19,4 +21,3 @@ The state information held within each device, as it will eventually be seen wit
 ![entities image](https://github.com/iHubBridge/IoTtoFIWARE/blob/main/entities.png)
 
 
-Starting by the FIWARE Zone Tutorial :"https://github.com/FIWAREZone/iot_curse"
